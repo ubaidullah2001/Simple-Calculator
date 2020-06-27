@@ -1,0 +1,73 @@
+body{
+    font-family: sans-serif
+}
+
+#container{
+width: 1000px;
+height: 550px;
+background-image: url(https://img.freepik.com/free-psd/dark-blue-glow-dust-particle-abstract-background-light-ray-shine-beam-effect_35672-1428.jpg?size=626&ext=jpg);
+margin: 20px auto;
+}
+#calculator{
+width: 320px;
+height: 520px;
+background-color: black;
+margin: 20px auto;
+top: 20px;
+position: relative;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #fff;
+
+}
+#output{
+    text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+    font-size: 30px;
+    color: #fff;
+}
+#keyboard{
+    height: 400px;
+    
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.empty{
+    background-color: black;
+}
+.number,.operator{
+    cursor: pointer;
+}
+.operator:active,.number:active{
+    font-size: 13px;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0;
+}
+
+.operator{
+    background-color:rgb(243,156,18);
+    font-size: 20px;
+}
